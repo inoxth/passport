@@ -24,7 +24,8 @@
         "league/oauth2-server": "~5.0",
         "symfony/psr-http-message-bridge": "~1.0",
         "zendframework/zend-diactoros": "~1.0",
-        "phpseclib/phpseclib": "^2.0"
+        "phpseclib/phpseclib": "^2.0",
+        "jenssegers/mongodb": "~3.2"
     },
     "require-dev": {
         "mockery/mockery": "~0.9",
