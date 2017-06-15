@@ -117,4 +117,9 @@ class Token extends Model
     {
         return false;
     }
+
+    public function setIdAttribute($value)
+    {
+        $this->attributes['_id'] = $value;
+    }
 }
